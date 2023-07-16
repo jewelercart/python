@@ -57,8 +57,6 @@ num_iterations = 1000
 theta = gradient_descent(X, y, learning_rate, num_iterations)
 print("Theta:", theta)
 
-In this revised version, the gradient descent equation is applied to update the theta values using the line theta -= learning_rate * gradient. Here, theta is the variable to be optimized, learning_rate is the step size or the amount by which we adjust the variable, and gradient represents the gradient of the cost function.
 
-The updated theta values are obtained by subtracting the product of the learning rate and the gradient from the current theta values. This step is performed iteratively for the specified number of iterations, gradually getting closer to the optimal variable values that correspond to the minimum value of the cost function.
 
 The rest of the code remains the same as in the previous example, including the dataset initialization, function call, and printing the optimized theta values."""
