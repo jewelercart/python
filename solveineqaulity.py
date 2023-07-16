@@ -150,17 +150,3 @@ def isolve(ineq):
 print(isolve('x**2 - 4 < 0'))  # Outputs: (-2 < x) & (x < 2)
 print(isolve('x**3 + 2*x**2 - 5 >= 0'))  # Outputs: (x <= -2*sqrt(6) - 1) | (x >= sqrt(6) - 1)
 
-The function isolve works as follows:
-
-    It creates a SymPy Symbol for 'x'. This is the variable we're solving for.
-
-    It uses the sympify function to convert the input inequality (which is a string) into a SymPy object.
-
-    It checks if the inequality is a rational function (i.e., the ratio of two polynomials). If it is, it solves the inequality using solve_rational_inequalities(). Otherwise, it uses solve_univariate_inequality().
-
-    It returns the solution, which is a SymPy object representing the solution set of the inequality.
-
-You can use this function to solve a variety of inequalities, by calling isolve(inequality), where inequality is a string representing the inequality you want to solve. The inequality should be written in terms of 'x'. For instance, you could call isolve('x**2 - 4 < 0') to solve the inequality x^2 - 4 < 0.
-
-The SymPy library provides a powerful set of tools for symbolic mathematics in Python. If you don't have it installed, you can do so with the command pip install sympy.
-ChatGPT may produce inaccurate information about people, places, or facts. ChatGPT May 24 Versio"""
