@@ -34,8 +34,3 @@ def start_statistics_calculator():
 
 start_statistics_calculator()
 
-"""In this version, the read_numbers_from_file function opens the file, reads each 
-line, and converts them to integers. The numbers are then passed to the other functions to 
-calculate the mean, median, mode, variance, and standard deviation, which are then printed. 
-Make sure your mydata.txt file is in the same 
-directory as your script, or provide the appropriate path to the file."""
