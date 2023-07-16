@@ -29,14 +29,3 @@ c = float(input("Enter the coefficient c: "))
 # Call the function to calculate the roots of the quadratic function
 quadratic_calculator(a, b, c)
 
-"""In this script, we define the quadratic_calculator function that takes three coefficients (a, b, and c) as inputs. It calculates the discriminant of the quadratic equation (b^2 - 4*a*c) and then determines the type of roots based on the discriminant.
-
-    If the discriminant is greater than 0, the quadratic equation has two distinct real roots, and they are calculated using the quadratic formula.
-    If the discriminant is equal to 0, the quadratic equation has a single real root, and it is calculated.
-    If the discriminant is less than 0, the quadratic equation has two complex roots, and they are calculated using complex numbers.
-
-The calculated roots are then printed to the console.
-
-To use the script, you'll be prompted to enter the coefficients a, b, and c for the quadratic equation. After entering the coefficients, the script will calculate and display the roots of the quadratic equation.
-
-Note: This script uses the math module from the Python standard library for square root calculations."""
