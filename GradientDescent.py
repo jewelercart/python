@@ -59,4 +59,3 @@ print("Theta:", theta)
 
 
 
-The rest of the code remains the same as in the previous example, including the dataset initialization, function call, and printing the optimized theta values."""
