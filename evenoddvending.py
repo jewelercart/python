@@ -28,6 +28,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-"""In this script, the even_odd_vending_machine function determines whether a 
-given number is even or odd, and then prints the next 9 numbers of the same type. The main function is the user interaction loop, where the user can enter a number or choose to exit the program. 
-The isdigit method is used to ensure the user entered a number."""
