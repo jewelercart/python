@@ -22,14 +22,7 @@ def isolve(ineq):
 print(isolve('x**2 - 4 < 0'))  # Outputs: (-2 < x) & (x < 2)
 print(isolve('x**3 + 2*x**2 - 5 >= 0'))  # Outputs: (x <= -2*sqrt(6) - 1) | (x >= sqrt(6) - 1)
 
-"""Model: GPT-4
-User
-Write a python script for Solving Single-Variable Inequalities
-ChatGPT
 
-Certainly, here is a simple python script that helps to solve linear single-variable inequalities. This script assumes that the input inequality is in a standard form "ax + b < c", "ax + b > c", "ax + b <= c", or "ax + b >= c". You may need to manually rearrange the inequality before you input it. Also, this script does not cover cases where the variable is not in the first term or if there are multiple variables.
-
-This script will not solve quadratic inequalities, absolute value inequalities, or inequalities involving exponents or roots. For those, a different, more sophisticated approach would be needed.
 
 python
 from sympy import symbols, Eq, solve
