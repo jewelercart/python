@@ -71,18 +71,7 @@ def solve_inequality(inequality):
 inequality = "2*x + 3 <= 5"
 print(solve_inequality(inequality))
 
-This script will return the boundary of the solution set for the given inequality. Please note that this script does not fully solve the inequality but transforms it into a more simple and readable form.
 
-This script also uses the sympy library, which provides a powerful set of tools for symbolic mathematics in Python. If you don't have it installed, you can do so with the command pip install sympy.
-
-Please be aware that parsing strings and evaluating them with eval() can be a security risk if the strings come from an untrusted source, as it allows execution of arbitrary Python code. Use this approach with caution, and consider safer alternatives if necessary.
-User
-write a python script for Law of Large Numbers
-ChatGPT
-
-The Law of Large Numbers (LLN) states that as a sample size grows, its mean gets closer to the average of the whole population. In other words, the average of the results obtained from a large number of trials should be close to the expected value and will tend to become closer as more trials are performed.
-
-Here's an example of a Python script to demonstrate the Law of Large Numbers using a simple coin flip simulation:
 
 python
 import numpy as np
