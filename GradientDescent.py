@@ -26,6 +26,8 @@ num_iterations = 1000
 theta = gradient_descent(X, y, learning_rate, num_iterations)
 print("Theta:", theta)
 
+#output Theta: [0.5648855  0.19083969]
+
 
 
 
