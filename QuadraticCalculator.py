@@ -29,3 +29,5 @@ c = float(input("Enter the coefficient c: "))
 # Call the function to calculate the roots of the quadratic function
 quadratic_calculator(a, b, c)
 
+
+
